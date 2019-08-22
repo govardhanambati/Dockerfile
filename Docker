@@ -15,4 +15,5 @@ WORKDIR /opt/tomcat/webapps
 RUN curl -o -l https://github.com/ThanishInfotech/Docker1/raw/master/dist/sampleWebApp.war
 
 EXPOSE 8080
+
 CMD ["/opt/tomcat/bin/catalina.sh","run"]
